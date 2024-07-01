@@ -1,0 +1,16 @@
+# Dependency directories
+node_modules/
+
+# Hardhat artifacts
+artifacts/
+cache/
+
+# Environment variables
+.env
+
+# IDE specific files
+.vscode/
+.idea/
+
+# Miscellaneous
+.DS_Store
