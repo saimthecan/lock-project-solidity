@@ -3,8 +3,9 @@ pragma solidity ^0.8.2;
 
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
+
 contract canToken is ERC20 {
     constructor() ERC20("Can Token", "CAN") {
-        _mint(msg.sender, 1773000 * 10**decimals());
+        _mint(msg.sender, 1773000 * 10 ** decimals());
     }
-} 
+}
